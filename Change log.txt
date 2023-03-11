@@ -1,0 +1,75 @@
+12:07 26/2/2005 - Sistema instalado
+
+11:42 28/2/2005 - Ajuste na pagina 'editar.php'            : Lista de lojas e documentos ordenados por código.
+11:43 28/2/2005 - Ajuste nos relatórios                    : Abrir janela de impressão automaticamente.
+13:17 28/2/2005 - Modificação na Base de dados             : Campo número da tabela 'Movimentacao' passa para varchar(12)
+13:19 28/2/2005 - Ajuste na pagina 'resultPag.php'         : Alinhamento da coluna número passa para 'left' e o 'padding-left' passa para '20px'
+13:19 28/2/2005 - Ajuste na pagina 'movimentacoes.php'     : Alinhamento da coluna número passa para 'left' e o 'padding-left' passa para '20px'
+13:30 28/2/2005 - Ajuste na pagina 'fatura.php'            : Adicionado o atributo 'maxlength' valor 12 ao campo 'TXTnum', para refletir a configuração do Banco de dados
+14:03 28/2/2005 - Ajuste na página 'fatura.php'            : Lista de pagamentos ordenada por vencimento e fornecedor
+15:11 28/2/2005 - Ajuste na página 'resultPag.php'         : Ordenar resultados por Data de movimentação, Conta e forma de pagamento
+15:11 28/2/2005 - Ajuste na pagina 'movimentacoes.php'     : Ordenar resultados por Data de movimentação, Conta e forma de pagamento
+17:43 28/2/2005 - Ajuste na pagina 'notificado.php'        : Pequena alteração na frase gravada nas notificações por padrão, incluindo agora o nome do fornecedor.
+09:07 1/3/2005  - Ajuste na página 'documento.php'         : Adicionado link dinamico para que o usuário possa visualizar os outros documentos que formam a fatura de pagamento.
+09:11 2/3/2005  - Adicionada nova funcionalidade de script : Os campos 'número do documento' não podem ser preenchidos com valores nulos, tais como '0' ( Ajuste na função 'noBlank' do arquivo misc/agendamento.js')
+09:14 2/3/2005  - Ajuste na página 'editar.php'            : Sufocado um erro de e-notice na linha 73 ( @ ) que enibe a exibição de mensagens de erro caso o usuário burle o novo recurso de script adicionado acima.
+13:52 2/3/2005  - Funcionabilidade adicionada !            : Exportação dos resultados de pesquisas em arquivos TXT delimitados por tabulações. ( Somente resultados de consultas )
+14:40 2/3/2005  - Ajuste na página 'resultPag.php'         : Correção de pequeno erro sintático no texto das instruções.
+15:45 3/3/2005  - Ajuste no relatório 'movimentacoes.php'  : Pequena modificação em um dos rótulos do cabecalho dos resultados ( 'Contas Bancárias' p/ 'Conta' )
+09:10 4/3/2005  - Alteração no arquivo de estilos CSS      : Definido o tamanho do texto das classes 'topoSup' e 'titulo', evitando assim deixa-los a mercê das configurações do browser usuário.
+16:10 4/3/2005  - Ajuste na página 'resultado.php'         : Correção de um pequeno bug que criava um link invisível para o relatório de resultados
+13:00 8/3/2005  - Ajuste na pagina 'agendamento.php'       : A data de gravação de cada agendamento agora grava apenas dd-mm-YYYY, para validar consultas por data de agendamento
+13:01 8/3/2005  - Ajuste na página 'consultas.php'         : Adicicionado campos para pesquisa de documentos também por período de agendamento
+13:12 8/3/2005  - Ajuste no relatório 'relatorio.php'      : O relatório foi apenas adaptado para refletir os resultados da consulta também por período de agendamento
+14:56 8/3/2005  - Ajuste na página 'exportacao.php'        : O pagina foi apenas adaptada para gerar resultados também por período de agendamento
+
+16:29 14/3/2005 - Sistema oficialmente evolui de "Beta Release" para "Estável". ( v 2.01 )
+
+17:35 28/3/2005 - Ajuste na página 'consultas.php'         : Adicionados campos para a pesquisa incluindo 'usuário' que efetuou o agendamento. ( List Box )
+17:38 28/3/2005 - Ajuste na página 'exportacao.php'        : Ajuste efetuado para adequar-se a modificação na página 'consultas.php'
+17:39 28/3/2005 - Ajuste no relatório 'relatorio.php'      : Ajuste efetuado para adequar-se a modificação na página 'consultas.php'
+17:39 28/3/2005 - Ajuste na página 'pagamentos.php'        : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários
+17:39 28/3/2005 - Ajuste na página 'fatura.php'            : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários
+17:39 28/3/2005 - Ajuste na página 'consultarPag.php'      : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários
+17:39 28/3/2005 - Ajuste na página 'resultadosPag.php'     : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários
+17:51 29/3/2005 - Ajuste na página 'faturas.php'           : Ordenar resultados também por loja
+17:52 29/3/2005 - Ajuste no relatório 'documentos.php'     : Ordenar resultados também por loja e vencimento
+11:55 29/4/2005 - Ajuste no relatório 'documentos.php'     : Adicionado mecanismo pra validação de usuário, bloqueando acesso àqueles não autenticados.
+11:55 29/4/2005 - Ajuste no relatório 'documentos.php'     : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários.
+11:55 29/4/2005 - Ajuste no relatório 'relatorio.php'      : Adicionado mecanismo pra validação de usuário, bloqueando acesso àqueles não autenticados.
+11:55 29/4/2005 - Ajuste no relatório 'movimentacoes.php'  : Adicionado mecanismo pra validação de usuário, bloqueando acesso àqueles não autenticados.
+11:55 29/4/2005 - Ajuste no relatório 'movimentacoes.php'  : Nível para acesso deste serviço aumenta para 2, impedindo assim o acesso por todos os usuários.
+16:41 29/4/2005 - Ajuste na página 'central.php'           : Pequena modificação no IF que valida o usuário para efetuar baixas de pagamentos. ( É necessário um usuário 2+ )
+15:36 8/8/2005  - Ajuste na página 'agenda.php'		   : Retiradas as notas informativas do rodapé ( Developer constatou que ninguém nunca reparou nelas )
+15:38 8/8/2005  - Ajuste na página 'resultados.php'	   : Retiradas as notas informativas do rodapé ( Developer constatou que ninguém nunca reparou nelas ) e acrecentado a soma total dos documentos retornados.
+15:40 8/8/2005  - Ajuste na página 'notificacoes.php'	   : Retiradas as notas informativas do rodapé ( Developer constatou que ninguém nunca reparou nelas )
+08:19 31/8/2005 - Funcionabilidade adicionada !            : Agora é possível salvar o resultado de uma pesquisa no formato PDF, muito mais fácil de distribuir aos colaboradores da empresa ( Arquivo 'relatorios/relatorioPdf.php' adicionado )
+08:10 2/9/2005  - Ajuste na página 'agendamento.php'	   : O Formulário de agendamento agora possui também um botão para limpar os dados digitados
+15:08 5/9/2005  - Ajuste na página 'pagamentos.php'	   : O formulário de pesquisa agora abre uma nova janela exibindo os resultados ( target="_blank" )
+15:08 5/9/2005  - Ajuste na página 'consultas.php'	   : O formulário de pesquisa agora abre uma nova janela exibindo os resultados ( target="_blank" )
+22:08 10/10/2005 - Funcionabilidade Adicionada !	   : Agora o contas a pagar também tem um suporte para Plano de contas simples, permitindo agrupar despesas em grupos comuns, facilitando análises mais diversificadas.
+22:41 10/10/2005 - Ajuste na página 'resultados.php'	   : A barra de menu desta página foi simplificada, uma vez que seu propósito de ser uma janela independente precisa ser preservado.
+22:45 10/10/2005 - Ajuste na página 'fatura.php'	   : A barra de menu desta página foi simplificada, uma vez que seu propósito de ser uma janela independente precisa ser preservado.
+22:51 10/10/2005 - Ajuste na página 'pagamentos.php'	   : Agora o formulário sempre abre a mesma janela a cada consulta, evitando a abertura desenfreada de diversas janelas.
+22:51 10/10/2005 - Ajuste na página 'consultas.php'	   : Agora o formulário sempre abre a mesma janela a cada consulta, evitando a abertura desenfreada de diversas janelas.
+23:01 10/10/2005 - Ajuste na página 'documento.php'	   : Agora esta página exibe também qual a categoria de despesa que o pagamento foi associado.
+
+22:53 10/10/2005 - Sistema passa para versão 2.1
+
+12:25 12/10/2005 	- Funcionabilidade adicionada !	   	: Agora é possível gerar relatórios de resultados baseado no novo plano de contas
+09:41 31/10/2005 	- Ajuste na página consultarPlanos.php	  	: Agora é possivel filtrar resultados somente contábeis, não contábeis ou ambos.
+09:42 31/10/2005 	- Ajustes nos relatórios do plano de contas 	: Ajuste necessário para o filtro de consulta descrito acima.
+08:00 20/12/2005 	- Funcionabilidade adicionanda ! 		: Formulário para agendamento em bloco
+17:04 04/01/2006 	- "Perfumaria adicionada eheh" agora a interface de agendamento informa a duração do processamento das requisições
+11:01 17/5/2006  	- Muito tem sem atualizações hein ? Bem, foi adicionado o recurso de processamento "batch" durante a baixa, assim é possível selecionar um bloco de documentos e definir se serão processados como várias movimentações individuais ou uma só.
+09:25 23/02/07    	- Ajuste na página Agendamento.php		: Os botões de Submit e Reset são travados durante o processamento da requisição
+10:03 27/02/07   	- Ajustes no processo de agendamento		: Agora o sistema grava o valor "Base de cálculo" no banco de dados. Ajustamos na página "agendamento.php" e "editar.php"
+10:41 27/2/2007 	- Ajustes de usabilidade			: Adicionamos pseudo-links com dicas de contexto explicando a importância dos últimos ajustes
+10:12 7/3/2007   	- Novo relatório adicionado !			: Agora o CAP oferece a opção de relatório subtotalizado por fornecedor, reforçando assim o princípio de agilidade proposta pelo nosso sistema
+10:29 7/3/2007	- Pequeno ajuste nos textos da página principal	: Apenas modificamos o conteúdo do texto, que estava bastante defasado.
+
+10:17 7/3/2007	- PREPAREM-SE PARA A VERSÂO 3.0 DO CAP ! ELE ESTA CHEGANDO EM BREVE !
+
+As duas atualizações seguintes foram revertidas, o sistema no modelo atual não consegue gerenciar bem essas melhorias
+//16:16 9/3/2007	- A tela de agendamento agora exibe apenas lançamentos do usuário que efetuou logon.
+//08:53 13/3/2007	- Foram adicionadas pequenas melhorias na usabilidade da interface das telas de agendamento e edição. Agora, destacamos os fornecedores na listagem, permitindo assim acesso mais rápido àqueles mais acessados.

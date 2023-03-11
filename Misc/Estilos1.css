@@ -1,0 +1,166 @@
+body {
+	margin: 0px;
+	font-family:"Trebuchet MS";
+	cursor: default;
+}
+.topoSup {
+	font-size       : 16px;
+	background-color: #0066FF;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.topoBase {
+	background-image: url(../imagens/topoBase.jpg);
+	background-repeat: repeat-y;
+	padding-left: 20px;
+}
+.icones {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.topoList {
+	font-size: 12px;
+	margin-left: 60px;
+	font-weight: bold;
+	color: #003366;
+}
+.topoGlobal {
+	border: 1px solid #7F9DB9;
+}
+.titulo {
+	font-size  : 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #003366;
+}
+.colunaEsquerda {
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+	background-color: #E3F1FF;
+	text-align: right;
+	padding-right: 5px;
+}
+.colunaDireita {
+	padding-left: 5px;
+	font-size: 12px;
+	color: #003366;
+}
+.tituloGrande {
+	font-size: 36px;
+	color: #003366;
+	font-weight: bold;
+}
+.containerTitulo {
+	padding-top: 10px;
+	padding-left: 15px;
+	font-size: 12px;
+	text-align: justify;
+}
+.rodape {
+	background-image: url(../imagens/rodapeBase.jpg);
+	background-repeat: repeat-y;
+	border: 1px solid #7F9DB9;
+	font-family: "Trebuchet MS";
+	font-size: 12px;
+	text-align: right;
+	padding-right: 10px;
+	color: #7F9DB9;
+}
+.line {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #E3F1FF;
+	font-size: 16px;
+	font-weight: bold;
+	color: #9ECEFE;
+	padding-left: 10px;
+}
+.zero {
+	font-size: 24px;
+	color: #9ECEFE;
+	margin: 30px;
+}
+.textoDestaque {
+	font-size: 12px;
+	font-weight: bold;
+	color: #003366;
+}
+.topoIndex {
+
+	border: 1px solid #7F9DB9;
+}
+.tituloGrande2 {
+	font-size: 24px;
+	color: #003366;
+	font-weight: bold;
+	padding-left: 10px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+.result {
+	font-size: 12px;
+	color: #003366;
+	padding-left: 10px;
+}
+.erro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF0000;
+	margin-left: 10px;
+}
+#box {
+	background-color: #DCEDFD;
+	border: 2px solid #9ECEFE;
+	font-size: 12px;
+	padding: 5px;
+	visibility: hidden;
+}
+#boxObs {
+
+	background-color: #DCEDFD;
+	border: 2px solid #9ECEFE;
+	font-size: 12px;
+	padding: 5px;
+	visibility: hidden;
+}
+.cabecalho {
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	text-align: center;
+	color: #003366;
+}
+.celula {
+	font-size: 12px;
+	color: #003366;
+}
+.tituloGrande3 {
+	font-size: 18px;
+	color: #0066FF;
+	font-weight: bold;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+.celula2 {
+	font-size: 12px;
+	color: #003366;
+	background-image: url(../Imagens/degCelulas.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.Listas {
+	width: 144px;
+}
+
+select {
+	width:150px;
+}

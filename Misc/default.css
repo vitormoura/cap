@@ -1,0 +1,39 @@
+body {
+	font-family: Verdana;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E0DFE3;
+}
+.tableTop {
+	background-image: url(../Imagens/degTop.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.menuItem {
+	margin-right: 2px;
+	margin-left: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.tdBase {
+	background-image: url(../Imagens/degBase.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.rotulos {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.campos {
+	text-align: left;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.erro {
+	font-weight: bold;
+	color: #FF0000;
+}
